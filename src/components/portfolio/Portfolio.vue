@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div>
+    <h1>Portfolio Component!</h1>
     <router-view></router-view>
   </div>
 </template>
