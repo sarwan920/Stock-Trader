@@ -21,6 +21,6 @@ export default {
 <style>
 body {
   padding: 30px;
-  background-image: linear-gradient(to right, #83a4d4 , #b6fbff);
+  /* background-image: linear-gradient(to right, #83a4d4 , #b6fbff); */
 }
 </style>
