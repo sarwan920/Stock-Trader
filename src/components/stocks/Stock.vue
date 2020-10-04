@@ -1,14 +1,13 @@
 <template>
-  <div class="card m-2 bg-light " style="max-width: 300px;">
-    <div class="row no-gutters justify-content-center align-items-center">
-      <div class="col-xs-2">
-        <div class="card-body">
-          <h3 class="card-title pt-1">{{stock.name}} <small>(Price:{{stock.price}})</small></h3>
-          <input type="number" class="form-control" />
-          <button class="btn btn-primary mt-1">
-            Buy
-          </button>
-        </div>
+  <div class="col-md-3 col-xs-12">
+    <div class="card mt-2 bg-light" style="width: 16rem;">
+      <div class="card-header bg-dark text-white border-dark"><h5 class="card-title">
+          {{ stock.name }} <small>(Price:{{ stock.price }})</small>
+        </h5></div>
+      <div class="card-body">
+        
+        <input type="number" class="form-control" />
+        <button href="#" class="btn btn-dark mt-2">Buy</button>
       </div>
     </div>
   </div>
@@ -16,7 +15,7 @@
 
 <script>
 export default {
-  props:['stock']
+  props: ["stock"],
 };
 </script>
 

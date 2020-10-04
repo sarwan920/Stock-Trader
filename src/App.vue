@@ -21,6 +21,7 @@ export default {
 <style>
 body {
   padding: 30px;
+  box-sizing: border-box;
   /* background-image: linear-gradient(to right, #83a4d4 , #b6fbff); */
 }
 </style>
