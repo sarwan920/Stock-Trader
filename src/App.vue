@@ -9,12 +9,16 @@
   </div>
 </template>
 
-<script>
+<script> 
 import Header from "./components/common/Header";
+
 export default {
   components: {
     appHeader: Header,
   },
+  created() {
+    this.$store.dispatch('initStocks');
+  }
 };
 </script>
 
@@ -22,6 +26,7 @@ export default {
 body {
   padding: 30px;
   box-sizing: border-box;
-  /* background-image: linear-gradient(to right, #83a4d4 , #b6fbff); */
+ background-color:rgb(223, 219, 219);
+
 }
 </style>
